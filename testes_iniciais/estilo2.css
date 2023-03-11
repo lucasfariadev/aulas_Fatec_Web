@@ -1,0 +1,28 @@
+h1{
+    color: red;
+}
+
+#menu-site h1{
+    color:purple;
+}
+
+#menu-site a{
+    color:orange;
+}
+
+#conteudo-site h1{
+    color:blue;
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    float: left;
+    background: green;
+}
+
+.caixa b{
+    font-size: 20px;
+    color: white;
+}

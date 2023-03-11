@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+.conteudo1{
+    background-color: aqua;
+    margin: 50px;
+    width: 30%;
+    padding: 50px;
+
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+.quadrado{
+
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.circulo{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.conteudo2{
+    background-color: blueviolet;
+    margin: 50px;
+    width: 30%;
+    padding: 50px;
+}
+.conteudo3{
+    background-color: burlywood;
+    margin: 50px;
+    width: 30%;
+    padding: 50px;
+}
+
+.fixo{
+    position: sticky;
+    top:0;
+}
+
+.filho ul li:first-child{
+    color: blue;
+}
+
+.filho ul li:last-child{
+    color: orange;
+}
+
+.filho ul li:nth-child(2){
+    color: red;
+}
+
+

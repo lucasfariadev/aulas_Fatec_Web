@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    border: 5px dotted red;
+    background-color: #00BFFF;
+    
+}
+
