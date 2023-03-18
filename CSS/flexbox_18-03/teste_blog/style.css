@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: azure;
+}
+
+header img{
+    width: 50px;
+}
+
+.container div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+main{
+    background-color: aquamarine;
+}
+
+ul{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+ul li{
+    margin: auto;
+}
+
+.posts{
+    display: flex;
+    background-color: rgb(212, 252, 239);
+    height: 100vh;
+}
+
+aside{
+    background-color: azure;
+}
+
+footer {
+    margin-left: 40%;
+}
+
+
+
+
