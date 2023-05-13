@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Declarações JavaScript</h1>
+    <h2>O lançamento das declarações</h2>
+    <p>Por favor insira um número entre 5 e 10: </p>
+    <input type="text" id="valor">
+    <button type="button" onclick="funcao()">Teste de Entrada</button>
+    <p id="message"></p>
+
+    <script>
+        function funcao(){
+            const message = document.getElementById("message");
+            message.innerHTML = "";
+
+            let x = document.getElementById("valor").value;
+            try{
+                if(x=="") throw "esta vazio";
+                if(isNaN(x)) throw "não é um número";
+                if(x > 10) throw "é maior que o solicitado";
+                if(x < 5) throw "é menor que o solicitado";
+            }
+            catch(err){
+                message.innerHTML = "A entrada " + err;
+            }
+        }
+    </script>
+</body>
+</html>
